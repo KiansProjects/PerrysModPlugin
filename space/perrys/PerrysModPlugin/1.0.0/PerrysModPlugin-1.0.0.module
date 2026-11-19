@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "space.perrys",
+    "module": "PerrysModPlugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "PerrysModPlugin-1.0.0.jar",
+          "url": "PerrysModPlugin-1.0.0.jar",
+          "size": 380904,
+          "sha512": "2f774eebc23f4869959a0d5309fdf539bdc7690d981edd76efe15ddbf40560f5f15827a20f8b0f3c7ace2945f7f79cf0981bdec821e5732fe4c4dce7cf28ef4e",
+          "sha256": "7faf5212aedb6a6005f8d8130d86ce5ea4cf3ece713af073f3990421a6da15b0",
+          "sha1": "cfe6afdb72e1d26da2520a6912cb9da30d4b3147",
+          "md5": "221730f7339678ec92dd3eb3a3fac088"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-loom",
+          "module": "net.fabricmc.fabric-loom.gradle.plugin",
+          "version": {
+            "requires": "1.19.4"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-plugin-gradle",
+          "version": {
+            "requires": "8.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "PerrysModPlugin-1.0.0.jar",
+          "url": "PerrysModPlugin-1.0.0.jar",
+          "size": 380904,
+          "sha512": "2f774eebc23f4869959a0d5309fdf539bdc7690d981edd76efe15ddbf40560f5f15827a20f8b0f3c7ace2945f7f79cf0981bdec821e5732fe4c4dce7cf28ef4e",
+          "sha256": "7faf5212aedb6a6005f8d8130d86ce5ea4cf3ece713af073f3990421a6da15b0",
+          "sha1": "cfe6afdb72e1d26da2520a6912cb9da30d4b3147",
+          "md5": "221730f7339678ec92dd3eb3a3fac088"
+        }
+      ]
+    }
+  ]
+}
